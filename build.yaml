@@ -19,14 +19,14 @@
 ---
 include:
   # Standard Sofle RGB builds
-  - board: nice_nano_v2//zmk
+  - board: nice_nano//zmk
     shield: sofle_left
-  - board: nice_nano_v2//zmk
+  - board: nice_nano//zmk
     shield: sofle_right
   # Debug build with USB logging (flash this to diagnose key issues)
-  - board: nice_nano_v2//zmk
+  - board: nice_nano//zmk
     shield: sofle_left
     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
     artifact-name: sofle_left_debug_logging
-  - board: nice_nano_v2//zmk
+  - board: nice_nano//zmk
     shield: settings_reset
