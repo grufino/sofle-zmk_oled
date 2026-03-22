@@ -18,7 +18,9 @@
 #
 ---
 include:
-  - board: nice_nano//zmk
-    shield: sofle_left
-  - board: nice_nano//zmk
-    shield: sofle_right
+  - board: eyelash_sofle_left
+    shield: nice_view
+  - board: eyelash_sofle_right
+    shield: nice_view
+  - board: nice_nano_v2
+    shield: settings_reset
